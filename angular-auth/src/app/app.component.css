@@ -1,0 +1,36 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+
+.container {
+    margin: 5%;
+}
+
+#logoutButton {
+  position: relative;
+  display: inline-block;
+}
+
+#logoutButton span {
+  cursor: pointer;
+  transition: 0.4s;
+  overflow: hidden;
+}
+
+#logoutButton span:after {
+  content: 'Logout';
+  position: absolute;
+  opacity: 0;
+  top: 2px;
+  right: -10px;
+  transition: 0.4s;
+}
+
+#logoutButton:hover span {
+  padding-right: 45px;
+}
+
+#logoutButton:hover span:after {
+  opacity: 1;
+  right: 10px;
+}

@@ -1,0 +1,11 @@
+<mat-toolbar color="primary">
+    <span>AuthApp</span>
+    <span class="spacer"></span>
+    <button mat-flat-button color="primary" (click)="logout()" id="logoutButton" *ngIf="this.authService.isLoggedIn()" type="button">
+        <mat-icon>logout</mat-icon>
+        <span> </span>
+    </button>
+</mat-toolbar>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>

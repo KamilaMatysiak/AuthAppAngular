@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background: #fdfdfd;}
+mat-card {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+}
+
+mat-card-content{
+    margin: 25px 0;
+}
+
+.submitButton,
+mat-form-field {
+    width: 100%;
+}
+
+.form-routing {
+    text-align: center;
+    color: #555;
+}
+
+.form-routing a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+}
